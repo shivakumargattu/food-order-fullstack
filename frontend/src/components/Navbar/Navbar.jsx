@@ -5,17 +5,17 @@ import { useState } from 'react';
 
 const Navbar = () => {
   
-  const [manu,setManu]=useState("manu ")
+  const [manu,setManu]=useState("")
 
 
   return (
     <div className='navbar'>
      <img src={assets.logo} alt="logo" className='logo'/>
      <ul className='navbar-manu' >
-        <li className={manu==="home"?"active":""} >Home </li>
-        <li className={manu==="manu"?"active":""} >Manu</li>
-        <li className={manu==="mobile-app"?"active":""}>mobile-app</li>
-        <li className={manu==="contact-us"?"active":""} > contact us</li>
+        <li onClick={()=>setManu("home")} className={manu==="home"?"active":""} >Home </li>
+        <li onClick={()=>setManu("manu")} className={manu==="manu"?"active":""} >Manu</li>
+        <li onClick={()=>setManu("mobile-app")} className={manu==="mobile-app"?"active":""}>mobile-app</li>
+        <li onClick={()=>setManu("contact-us")} className={manu==="contact-us"?"active":""} > contact us</li>
      </ul>
      <div className='navbar-right'>
           <img src={assets.search_icon} alt='seach ioc'/>
