@@ -4,9 +4,11 @@ import {Routes,Route} from "react-router-dom";
 import Home from './components/Pages/Home/Home';
 import Cart from './components/Pages/Cart/Cart';
 import PlaceOrder from './components/Pages/PlaceOrder/PlaceOrder';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
+    <>
     <div className='app'>
     <Navbar/>
     <Routes>
@@ -16,6 +18,8 @@ const App = () => {
 
     </Routes>
     </div>
+    <Footer/>
+    </>
   )
 }
 
