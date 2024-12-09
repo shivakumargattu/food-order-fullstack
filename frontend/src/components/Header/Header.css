@@ -36,3 +36,22 @@
     border-radius: 50px;
 
 }
+
+@media (max-width:1050px){
+
+    .headeContent{
+        max-width: 45%;
+    }
+}
+@media (max-width:750px){
+    
+    .headeContent{
+        max-width: 55%;
+    }
+    .headeContent p{
+        display: none;
+    }
+    .headeContent button{
+        padding: 2vw 4vw;
+    }
+}
