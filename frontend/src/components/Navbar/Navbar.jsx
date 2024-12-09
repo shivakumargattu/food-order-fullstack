@@ -2,6 +2,7 @@ import React from 'react';
 import { assets } from '../../assets/assets';
 import "./Navbar.css"
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   
@@ -12,10 +13,10 @@ const Navbar = () => {
     <div className='navbar'>
      <img src={assets.logo} alt="logo" className='logo'/>
      <ul className='navbar-manu' >
-        <li onClick={()=>setManu("home")} className={manu==="home"?"active":""} >Home </li>
-        <li onClick={()=>setManu("manu")} className={manu==="manu"?"active":""} >Manu</li>
-        <li onClick={()=>setManu("mobile-app")} className={manu==="mobile-app"?"active":""}>mobile-app</li>
-        <li onClick={()=>setManu("contact-us")} className={manu==="contact-us"?"active":""} > contact us</li>
+        <Link to="/" onClick={()=>setManu("home")} className={manu==="home"?"active":""} >Home </Link>
+        <a href='#explore-menu'  onClick={()=>setManu("manu")} className={manu==="manu"?"active":""} >Manu</a>
+        <a href='#app-download' onClick={()=>setManu("mobile-app")} className={manu==="mobile-app"?"active":""}>mobile-app</a>
+        <a href='#footer' onClick={()=>setManu("contact-us")} className={manu==="contact-us"?"active":""} > contact us</a>
      </ul>
      <div className='navbar-right'>
           <img src={assets.search_icon} alt='seach ioc'/>
