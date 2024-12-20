@@ -40,7 +40,7 @@ const Cart =()=>{
             })}
           </div>
           <div className="cart-bottom">
-            <div className="cart-totl">
+            <div className="cart-total">
               <h2>Cart Total</h2>
               <div>
                 <div className="cart-total-detalis">
@@ -58,12 +58,10 @@ const Cart =()=>{
                 <b>{0}</b>
                 </div>
                       <hr />      
-                            
+                    <button>Checkout Place order</button>
                  </div>
             </div>
-            <button>Proceed To Checkout</button>
-          </div>
-          <div className="cart-promocode">
+            <div className="cart-promocode">
             <div>
               <p>If you have a promo code, Enter it here</p>
               <div className="cart-promocode-input">
@@ -72,6 +70,8 @@ const Cart =()=>{
               </div>
             </div>
           </div>
+          </div>
+          
 
         </div>
     )
