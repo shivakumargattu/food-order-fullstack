@@ -40,15 +40,15 @@ const PlaceOrder =()=>{
                 <hr />
                 <div className="cart-total-detalis">
                 <p>Delivery Fee</p>
-                <p>$ {2}</p>
+                <p>$ {getTotalCartAmount()===0? "0" :"2"}</p>
                 </div>
                 <hr />
                 <div className="cart-total-detalis">
                 <b>Total</b>
-                <b>$ {getTotalCartAmount()+2}</b>
+                <b>$ {getTotalCartAmount()===0? "0": getTotalCartAmount()+2 }</b>
                 </div>
                       <hr />      
-                    <button >Proceed to Payment</button>
+                    <button onClick={()=>navigate("/order")}>Checkout Place order</button>
                  </div>
             </div>
 
