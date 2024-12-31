@@ -9,7 +9,7 @@
 <h2>cart</h2>
 <img src="https://github.com/user-attachments/assets/82785ecb-a912-4959-bafe-95ae4839a26f"/>
 
-h2>Order page<h2/>
+<h2>Order page<h2/>
 
 <img src="https://github.com/user-attachments/assets/aadcb1ea-9063-4ba2-af53-787b5c82e3cb"/>
 
