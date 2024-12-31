@@ -7,4 +7,4 @@
 ![image](https://github.com/user-attachments/assets/bd2cf2b1-b453-4b5d-b1a6-d7effa56c8ab)
 
 <h2>cart</h2>
-![image](https://github.com/user-attachments/assets/82785ecb-a912-4959-bafe-95ae4839a26f)
+<img src="https://github.com/user-attachments/assets/82785ecb-a912-4959-bafe-95ae4839a26f"/>
