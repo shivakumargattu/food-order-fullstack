@@ -8,7 +8,7 @@ Designed with **clean UI**, **modular components**, and **state management using
 
 ## 🔗 Live Preview & GitHub Repository
 
-- 🌐 **Live Demo:** *(Optional — Add your Vercel/Netlify link if deployed)*
+- 🌐 **Live Demo:** *[(Optional — Add your Vercel/Netlify link if deployed)](https://food-order-fullstack-tlm3.vercel.app/)*
 - 📦 **GitHub Repo:** [https://github.com/shivakumargattu/food-order-fullstack](https://github.com/shivakumargattu/food-order-fullstack)
 
 ---
@@ -80,4 +80,5 @@ Designed with **clean UI**, **modular components**, and **state management using
 This project is licensed under the **MIT License**. Feel free to fork, clone, or build upon it.
 
 ---
+
 
